@@ -14,4 +14,12 @@ public class Airport {
        return this.airportCode;
 
     }
+
+    public int hangerCount() {
+        return this.hanger.size();
+    }
+
+    public void addPlane(Plane plane) {
+        hanger.add(plane);
+    }
 }

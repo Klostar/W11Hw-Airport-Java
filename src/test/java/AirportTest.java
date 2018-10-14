@@ -22,6 +22,15 @@ public class AirportTest {
         assertEquals("GLA", airport.hasAirportCode());
     }
 
+    @Test
+    public void testEmptyHanger(){
+        assertEquals(0, airport.hangerCount());
+    }
 
+    @Test
+    public void canAddPlaneToHanger(){
+        airport.addPlane(plane);
+        assertEquals(1, airport.hangerCount());
+    }
 
 }
