@@ -20,4 +20,8 @@ public class Plane {
     public String hasAirline() {
         return airLine;
     }
+
+    public int hasNoPassengers() {
+        return passengers.size();
+    }
 }

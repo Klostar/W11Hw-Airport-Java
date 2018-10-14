@@ -21,4 +21,8 @@ public class PlaneTest {
     public void hasAirline(){
         assertEquals("Ryan Air", plane.hasAirline());
     }
+    @Test
+    public void hasNoPassengers(){
+        assertEquals(0, plane.hasNoPassengers());
+    }
 }
