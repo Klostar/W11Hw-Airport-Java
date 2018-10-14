@@ -29,4 +29,12 @@ public class Plane {
         this.passengers.add(passenger);
         return passengers.size();
     }
+
+    public int removePassengers(Passenger passenger) {
+        this.passengers.remove(passenger);
+        return  passengers.size();
+
+
+
+    }
 }
