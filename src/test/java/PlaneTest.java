@@ -42,4 +42,9 @@ public class PlaneTest {
     public void getCapacity(){
         assertEquals(7, plane.getCapacity());
     }
+
+    @Test
+    public void isFull(){
+        assertEquals("Flight Full", plane.capacityFull());
+    }
 }

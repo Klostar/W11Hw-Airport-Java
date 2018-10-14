@@ -40,4 +40,8 @@ public class Plane {
     public int getCapacity() {
         return this.planeType.getCapacity();
     }
+
+    public String capacityFull() {
+        if(int passeneger<  planeType.getCapacity());
+    }
 }
