@@ -34,7 +34,10 @@ public class Plane {
         this.passengers.remove(passenger);
         return  passengers.size();
 
+    }
 
 
+    public int getCapacity() {
+        return this.planeType.getCapacity();
     }
 }

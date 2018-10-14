@@ -37,4 +37,9 @@ public class PlaneTest {
         plane.removePassengers(passengers);
      assertEquals(0, plane.removePassengers(passengers));
     }
+
+    @Test
+    public void getCapacity(){
+        assertEquals(7, plane.getCapacity());
+    }
 }
