@@ -21,4 +21,9 @@ public class FlightTest {
     public void flightHasPlaneType(){
         assertEquals(PlaneType.BOEING767, flight.hasPlane());
     }
+
+    @Test
+    public void flightHasDestination(){
+        assertEquals("Pisa", flight.hasDestination());
+    }
 }

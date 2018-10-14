@@ -20,4 +20,8 @@ public class Flight {
         return this.planeType;
     }
 
+
+    public String hasDestination() {
+        return this.destination;
+    }
 }
