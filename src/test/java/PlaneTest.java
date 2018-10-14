@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 
 public class PlaneTest {
     Plane plane;
+    Passenger passengers;
 
 
     @Before
@@ -24,5 +25,9 @@ public class PlaneTest {
     @Test
     public void hasNoPassengers(){
         assertEquals(0, plane.hasNoPassengers());
+    }
+    @Test
+    public void canAddPassengers(){
+        assertEquals(1, plane.passengerCount(passengers));
     }
 }

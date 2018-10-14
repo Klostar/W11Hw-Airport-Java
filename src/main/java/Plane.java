@@ -24,4 +24,9 @@ public class Plane {
     public int hasNoPassengers() {
         return passengers.size();
     }
+
+    public int passengerCount(Passenger passenger) {
+        this.passengers.add(passenger);
+        return passengers.size();
+    }
 }
