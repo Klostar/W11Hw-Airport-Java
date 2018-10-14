@@ -15,4 +15,9 @@ public class Flight {
     public String hasFlightNumber() {
         return this.flightNumber;
     }
+
+    public PlaneType hasPlane() {
+        return this.planeType;
+    }
+
 }
