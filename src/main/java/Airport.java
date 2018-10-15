@@ -22,4 +22,8 @@ public class Airport {
     public void addPlane(Plane plane) {
         hanger.add(plane);
     }
+
+    public void removePlaneFromHanger(Plane plane) {
+        hanger.remove(plane);
+    }
 }
