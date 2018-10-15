@@ -26,4 +26,10 @@ public class Airport {
     public void removePlaneFromHanger(Plane plane) {
         hanger.remove(plane);
     }
+
+    public Flight createFlight(Plane plane, String flightNumber, String destination) {
+        removePlaneFromHanger(plane);
+        Flight newFlight = new Flight("FR456", PlaneType.BOEING747, "Milan");
+        return newFlight;
+    }
 }
